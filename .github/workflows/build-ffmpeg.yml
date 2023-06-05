@@ -2,9 +2,9 @@
 name: FFmpeg Static Build and Upload Artifacts
 on:
   push:
-    branches:
-      - master
-      - main
+    #branches:
+    #  - master
+    #  - main
     tags:
       - "*"
 jobs:
