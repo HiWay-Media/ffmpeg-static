@@ -10,9 +10,8 @@ apt-get install -y \
 #
 ## Install dependencies
 apt-get install -y \
-    autoconf automake build-essential cmake git libass-dev libbz2-dev libfontconfig1-dev libfreetype6-dev libfribidi-dev libharfbuzz-dev libjansson-dev liblzma-dev libmp3lame-dev libnuma-dev libogg-dev libopus-dev libsamplerate-dev libspeex-dev libtheora-dev libtool libtool-bin libturbojpeg0-dev libvorbis-dev libx264-dev libxml2-dev libvpx-dev m4 make nasm ninja-build patch pkg-config tar zlib1g-dev autopoint imagemagick gsfonts wget
+    autoconf automake build-essential cmake git libass-dev libbz2-dev libfontconfig1-dev libfreetype6-dev libfribidi-dev libharfbuzz-dev libjansson-dev liblzma-dev libmp3lame-dev libnuma-dev libogg-dev libopus-dev libsamplerate-dev libspeex-dev libtheora-dev libtool libtool-bin libturbojpeg0-dev libvorbis-dev libx264-dev libxml2-dev libvpx-dev m4 make nasm ninja-build patch pkg-config tar zlib1g-dev autopoint imagemagick gsfonts wget libzmq-dev
 #
-
 wget https://ffmpeg.org/releases/ffmpeg-$1.tar.xz \
  && tar -xf ffmpeg-$1.tar.xz \
  && rm ffmpeg-$1.tar.xz
