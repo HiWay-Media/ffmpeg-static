@@ -14,7 +14,7 @@ To use the FFmpeg static binaries provided by this repository, follow the instru
 
 Once you have completed these steps, you should be able to use the ffmpeg command-line tool directly from any location in your terminal or command prompt.
 
-## Supported Platforms
+## Supported Platforms
 Currently, this repository provides static binaries for the following platforms:
 
 - Windows (32-bit and 64-bit)
