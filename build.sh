@@ -22,7 +22,6 @@ cd ffmpeg-$1 \
  && ./configure --prefix=/usr/local \
     --bindir="/tmp/bin" \
     --enable-nonfree \
-    --enable-nvenc \
     --enable-gpl \
     --enable-version3 \
     --enable-static \
